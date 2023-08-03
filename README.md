@@ -9,20 +9,20 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/hillswor/namaka-server">
-    <img src="public/namaka-logo.svg" alt="Logo" width="100" height="100">
+  <a href="https://github.com/hillswor/squatch-spotter-server">
+    <img src="public/squatch-spotter-logo.svg" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Namaka</h3>
 
   <p align="center">
-    The server side of a full-stack application that creates an API for the Next.js front end to interact and pull data from.  The API is connected to a PostgreSQL database hosted by Render.  The app enables reef tank enthusiasts to monitor crucial water parameters and interact with one another through a message board.
+    The server side of a full-stack application that creates an API for the Create React App front end to interact and pull data from.  The API is connected to a PostgreSQL database hosted by Render.  The app enables sasquatch enthusiasts to track sightings and interact with one another through a message board.
     <br />
-    <a href="https://namaka-server.onrender.com">View API</a>
+    <a href="https://squatch-spotter-server.onrender.com">View API</a>
     ·
-    <a href="https://github.com/hillswor/namaka-server/issues">Report Bug</a>
+    <a href="https://github.com/hillswor/squatch-spotter-server/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hillswor/namaka-server/issues">Request Feature</a>
+    <a href="https://github.com/hillswor/squatch-spotter-server/issues">Request Feature</a>
   </p>
 </div>
 
