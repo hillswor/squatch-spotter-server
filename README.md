@@ -122,9 +122,9 @@ Database models are in the models.py file.  The routes use Flask RESTful and are
 The app is currently comprised of the following routes found in app.py:
 
 ```
-GET "/"
+GET "/users"
 ```
-Displays a welcome message.
+Displays all users.
 ```
 POST "/users"
 ```
@@ -134,7 +134,7 @@ POST "/login"
 ```
 Validates login information and logs the user in.
 ```
-Post "/logout"
+DELETE "/logout"
 ```
 Logs the user out of current session.
 ```
@@ -142,36 +142,42 @@ GET "/check-session"
 ```
 Checks if there is a user signed in to the session.
 ```
-POST "/aquariums"
+GET "/locations"
 ```
-Adds a new aquarium under the logged in user.
+Displays all locations.
 ```
-GET "/aquariums/<int:id>"
-PATCH "/aquariums/<int:id>"
-DELETE "/aquariums/<int:id>"
+POST "/locations"
 ```
-Allows the user to view, edit or delete an existing aquarium by providing its unique identifier in the URL.
+Adds a new location
 ```
-POST "/water-parameters"
+GET "/sightings/<int:id>"
+PATCH "/sightings/<int:id>"
+DELETE "/sightings/<int:id>"
 ```
-Logs water parameters for an existing aquarium.
+Allows the user to view, edit or delete an existing sighting by providing its unique identifier in the URL.
 ```
-GET "/posts"
-```
-Displays all posts.
 ```
 POST "/comments"
 ```
-Adds a comment to a user's post.
+Add a comment to a post.
+```
+GET "/sightings"
+POST "/sightings"
+```
+Display all sightings and add a new sighting.
+```
+GET “/users/<int:user_id>/sightings"
+```
+Display all sightings for a specific user.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
-- [ ] Adjust models to allow aquarium owners to share their aquariums
-- [ ] Add CRUD functionality to the Post, Comment and WaterParameter models
+- [ ] Allow photos to be saved.
+- [ ] Add CRUD functionality to all models.
 
-See the [open issues](https://github.com/hillswor/namaka-client/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/hillswor/squatch-spotter/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
