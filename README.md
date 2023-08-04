@@ -13,7 +13,7 @@
     <img src="public/squatch-spotter-logo.svg" alt="Logo" width="100" height="100">
   </a>
 
-<h3 align="center">Namaka</h3>
+<h3 align="center">Squatch Spotter</h3>
 
   <p align="center">
     The server side of a full-stack application that creates an API for the Create React App front end to interact and pull data from.  The API is connected to a PostgreSQL database hosted by Render.  The app enables sasquatch enthusiasts to track sightings and interact with one another through a message board.
@@ -53,9 +53,9 @@
 
 ## About The Project
 
-With Namaka, users can track and manage aspects of their saltwater aquariums. The user-friendly platform enables users to monitor various parameters crucial to maintaining a healthy aquatic environment. Each aquarium gets its dedicated dashboard, where you can log information, analyze trends, and optimize care routines.
+With Squatch Spotter, users can track and discuss sasquatch sightings. Each user gets its dedicated dashboard, where they can view and edit previous sightings, comment on other user sightings, or add a new sighting.
 
-Moreover, Namaka aims to be home to a thriving community with an interactive message board that allows users to ask questions, share experiences, offer advice, or simply engage in conversation.
+Moreover, Squatch Spotter aims to be home to a thriving community with an interactive message board that allows users to ask questions, share experiences, offer advice, or simply engage in conversation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
