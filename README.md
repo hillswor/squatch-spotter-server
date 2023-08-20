@@ -156,7 +156,6 @@ DELETE "/sightings/<int:id>"
 ```
 Allows the user to view, edit or delete an existing sighting by providing its unique identifier in the URL.
 ```
-```
 POST "/comments"
 ```
 Add a comment to a post.
